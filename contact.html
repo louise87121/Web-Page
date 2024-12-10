@@ -1,0 +1,276 @@
+<head>
+    <!-- 跟著form的  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact_Jasmine's.</title>
+    <!-- 跟著form的  -->
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap官方網站 https://getbootstrap.com/ -->
+    <!-- 連結Bootstrap.min.css -->
+
+
+    <!-- TODO: 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <!-- 使用font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- 使用Boostrap Navbar -->
+    <!-- TODO: 設定Navbar緊貼畫面上緣 -->
+    <!-- TODO: 點擊滾動目標 -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top px-5">
+        <a class="navbar-brand fw-light" href="./index.html">Jasmine Chung</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse row" id="collapsibleNavId">
+
+            <!-- <ul class="navbar-nav mr-auto col-md-6">
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#featureList">PROFESSION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#infoSection">INFO</a>
+                </li>
+            </ul> -->
+            <ul class="nav navbar-nav mr-auto justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="./index.html">ABOUT ME</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-primary" href="./resume.html">RESUME</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="./projects.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="./contact.html">CONTACT</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <!-- navbar end -->
+    <!-- header -->
+    <header id="header" class="jumbotron text-center text-white">
+        <div class="container">
+            <h1 class="fw-semibold">"Hello World."</h1>
+            <p class="fw-semibold">This is my 1st website &amp; I use HTML5/CSS3/jQuery/Bootstrap in establishing.</p>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+
+
+    <!-- introSection -->
+    <!-- TODO: 設定introSection 上下padding為5倍 -->
+    <section id="featureList" class="pt-5">
+        <h3 class="section-title text-center text-uppercase fw-bold text-primary">Profession</h3>
+    </section>
+    <!-- introSection end -->
+
+    <!-- future me -->
+    <!-- future me end -->
+
+    <!-- card-list -->
+    <div class="card-list mb-5">
+        <!-- card -->
+        <div class="card">
+            <img class="card-img" src="https://picsum.photos/id/7/800/400" alt="">
+            <div class="card-body row">
+                <h3 class="card-title text-uppercase fw-light">Data Analysis</h3>
+                <div class="text-start">
+                    <p class="card-text fw-light">・Python</p>
+                    <p class="card-text fw-light">・Excel</p>
+                    <p class="card-text fw-light">・Visualization Tools (Tableau)</p>
+                    <p class="card-text fw-light">・Database (mySQL)</p>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+        <!-- card -->
+        <div class="card">
+            <img class="card-img" src="https://picsum.photos/id/249/800/400" alt="">
+            <div class="card-body">
+                <h3 class="card-title text-uppercase fw-light">Business</h3>
+                <div class="text-start">
+                    <p class="card-text fw-light">・Communication with International Employees</p>
+                    <p class="card-text fw-light">・International Business</p>
+                    <p class="card-text fw-light">・Commercial Composition</p>
+                    <p class="card-text fw-light">・Interpreter</p>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+        <!-- card -->
+        <div class="card">
+            <img class="card-img" src="https://picsum.photos/id/444/800/400" alt="">
+            <div class="card-body">
+                <h3 class="card-title text-uppercase fw-light">WEB DESIGN</h3>
+                <div class="text-start">
+                    <p class="card-text fw-light">・Business Website</p>
+                    <p class="card-text fw-light">・Personal Blog</p>
+                    <p class="card-text fw-light">・Network/Club Management</p>
+                    <p class="card-text fw-light">・Customized Content</p>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+    </div>
+    <!-- card-list end -->
+
+
+    <!-- certificate start -->
+    <h3 class="section-title text-center text-uppercase fw-bold text-primary mb-5">certificate</h3>
+    <section class="container justify-content-center">
+        <div id="certificateSection" class="row justify-content-center">
+            <div class="certificate col-12 col-md-6 col-sm-12">
+                <img src="./HTML:CSS:Bootstrap_certi.png" class="w-100" height="" alt="">
+                <h5 class="fw-light text-center">HTML5/CSS3/jQuery/Bootstrap
+                    - Jul 2023 recognized by NTU CSIE Training Program</h5>
+            </div>
+            <div class="certificate col-12 col-md-6 col-sm-12">
+                <img src="./Python_Udemy.jpeg" class="w-100" height="" alt="">
+                <h5 class="fw-light text-center">Python in Data Analysis (Numpy, Pandas)
+                    - Sep 2023 recognized by Udemy</h5>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- certificate end -->
+
+
+
+    <!-- infomation section -->
+    <div id="infoSection" class="bg-light text-center fw-light text-secondary my-2">
+        <p>&nbsp;</p>
+        <p class="text-uppercase">Jasmine Chung</p>
+        <p>Email: louise87121@gmail.com</p>
+        <p>Mobile: +886-900-000-000</p>
+        <!-- personal icons -->
+        <div class="personal_icons justify-content-center">
+            <div>
+                <a class="fs-2 itms" target="_blank" href="https://www.facebook.com/minluthegreat/">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+            </div>
+            <div>
+                <a class="fs-2 itms" target="_blank" href="https://www.instagram.com/minlu_the_great/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <!-- <div>
+                <a class="fs-2 itms" target="_blank" href="https://www.linkedin.com/in/min-ju-chung-75957a205">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div> -->
+        </div>
+        <!-- personal icons end -->
+        <p>&nbsp;</p>
+    </div>
+    <!-- information section end -->
+
+
+    <!-- footer -->
+    <footer id="footer" class="pt-5 bg-secondary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h4 class="text-uppercase fw-light">Contact Me</h4>
+                    <a class="fw-light" href="mailto:service@brand.com">louise87121@gmail.com</a>
+                    <p class="fw-light text-primary">+886-900-000-000</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h4 class="text-uppercase fw-light">Follow</h4>
+                    <!-- <ul>
+                        <li>
+                            <a href="#">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul> -->
+                    <!-- personal icons -->
+                    <div class="personal_icons">
+                        <div>
+                            <a class="fs-2 itms" target="_blank" href="https://www.facebook.com/minluthegreat/">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="fs-2 itms" target="_blank" href="https://www.instagram.com/minlu_the_great/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <!-- <div>
+                            <a class="fs-2 itms" target="_blank"
+                                href="https://www.linkedin.com/in/min-ju-chung-75957a205">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                    <!-- personal icons end -->
+                </div>
+
+                <div class="text-end col-md-6 col-sm-6 footer-list">
+                    <h5 class="fw-lighter text-uppercase justify-content-end">©2024 by Jasmine Chung.</h5>
+                    <!-- <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonus</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end bg-dark mt-5 py-2">
+            <p class="text-center">&copy; Copy right 2020</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- 引用的JS（配合前面的bootstrap.css） -->
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+
+</body>
