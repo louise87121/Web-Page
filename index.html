@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jasmine's Personal Website</title>
+    <!-- icons  -->
+    <link rel="icon shortcut" href="./img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap官方網站 https://getbootstrap.com/ -->
+    <!-- 連結Bootstrap.min.css -->
+
+
+    <!-- TODO: 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <!-- 使用font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- 使用Boostrap Navbar -->
+    <!-- TODO: 設定Navbar緊貼畫面上緣 -->
+    <!-- TODO: 點擊滾動目標 -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top px-5">
+        <a class="navbar-brand fw-light" href="./index.html">Jasmine Chung</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse row" id="collapsibleNavId">
+
+            <!-- <ul class="navbar-nav mr-auto col-md-6">
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#profileSection">PROFILE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#introSection">MORE</a>
+                </li>
+            </ul> -->
+            <ul class="nav navbar-nav mr-auto justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="./index.html">ABOUT ME</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link text-primary" href="./resume.html">RESUME</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="./projects.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="./contact.html">CONTACT</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <!-- navbar end -->
+    <!-- header -->
+    <header id="header" class="jumbotron text-center text-white">
+        <div class="container">
+            <h1 class="fw-semibold">"Hello World."</h1>
+            <p class="fw-semibold">This is my 1st website &amp; I use HTML5/CSS3/jQuery/Bootstrap in establishing.</p>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- profile start -->
+    <!-- TODO: 設定我的自介zone -->
+    <div class="container justify-content-center card-list">
+        <div id="profileSection" class="card-list">
+            <!-- profile -->
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top mt-4 w-100 card-img" src="./profile_20230915.jpg" alt="">
+                    <h4 class="fw-light text-center mt-4">Jasmine Chung</h4>
+                    <p class="card-text fw-light text-center">Warwick MSc MISDI</p>
+                    <p class="card-text fw-light text-center">NTU DFLL</p>
+                    <div class="text-center justify-content-center personal_icons">
+                        <div>
+                            <a class="fs-2 px-2" target="_blank" href="https://www.facebook.com/minluthegreat/">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="fs-2 px-2" target="_blank" href="https://www.instagram.com/minlu_the_great/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <!-- <div>
+                            <a class="fs-2 px-2" target="_blank"
+                                href="https://www.linkedin.com/in/min-ju-chung-75957a205">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- profile end -->
+            <!-- profile text -->
+            <div class="aboutMeText py-5">
+                <h3 class="text-center text-primary card-body fw-bold text-uppercase">About Me</h3>
+                <p class="fw-light text-center">
+                    Now a student at Warwick Business School (WBS), University of Warwick, studying MSc Management of
+                    Information Systems & Digital Innovation.
+                </p>
+
+                <div class="fw-light text-center justify-content-center">
+                    <p class="itms card-text pt-3">
+                        &nbsp;· A Merchandising Team Lead in B2B
+                    </p>
+                    <p class="itms card-text">
+                        &nbsp;· Skilled at Python (Pandas, NumPy), HTML/CSS/jQuery/Bootstrap, Tableau, and SQL
+                    </p>
+                    <p class="itms card-text">
+                        &nbsp;· National Taiwan University (Top 1 university in Taiwan)
+                    </p>
+                    <p class="itms card-text pb-3">
+                        &nbsp;· Japanese Language Proficiency Test N1 (Jan 2021)
+                    </p>
+                </div>
+            </div>
+            <!-- profile text end -->
+        </div>
+    </div>
+    <!-- profile end -->
+    <!-- 簡介 -->
+
+
+    <!-- introSection -->
+    <!-- TODO: 設定introSection 上下padding為5倍 -->
+    <section id="introSection" class="py-3">
+        <h3 class="px-5 section-title text-center fw-light text-secondary mb-5">
+            “People rarely succeed unless they have fun in what they are doing.” -- Dale Carnegie.
+        </h3>
+        <div class="container">
+            <!-- 修正排版為三項排一排 -->
+            <!-- <div class="row">
+                <div class="col-md-4">
+                    <div class="intro-box">
+                        <div class="icon text-primary py-3">
+                            <i class="fas fa-paper-plane fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-secondary">English</h3>
+                        <div class="intro-line bg-primary"></div>
+                        <p>We'll deploy our service with shortest time.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-box">
+                        <div class="icon text-primary py-3">
+                            <i class="fas fa-briefcase fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-secondary">Stable</h3>
+                        <div class="intro-line bg-primary"></div>
+                        <p>Everythings is setup ready, just waiting for your order.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="intro-box">
+                        <div class="icon text-primary py-3">
+                            <i class="fas fa-gem fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="text-secondary">Persistence</h3>
+                        <div class="intro-line bg-primary"></div>
+                        <p>Our software &amp; hardware service is always standby.</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- TODO: 設定此區塊距離上方5倍margin -->
+            <!-- TODO: 修正排版在md時六個排一排 sm三個排一排 sm以下兩個排一排-->
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-6 text-center">
+                    <i class="text-primary fs-2 fa-solid fa-brands fa-python"></i>
+                    <h5 class="mt-3 fw-light text-secondary">Python</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center">
+                    <i class="text-primary fs-2 fa-solid fa-database"></i>
+                    <h5 class="mt-3 fw-light text-secondary">Data Analysis</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center">
+                    <i class="text-primary fs-2 fa-solid fa-users"></i>
+                    <h5 class="mt-3 fw-light text-secondary">Teamwork</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center">
+                    <i class="text-primary fs-2 fa-solid fa-globe"></i>
+                    <h5 class="mt-3 fw-light text-secondary">Competent</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center">
+                    <i class="text-primary fs-2 fa-solid fa-heart"></i>
+                    <h5 class="mt-3 fw-light text-secondary">Optimistic</h5>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 text-center">
+                    <i class="text-primary fs-2 fa-solid fa-book-open-reader"></i>
+                    <h5 class="mt-3 fw-light text-secondary">Self Learning</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- introSection end -->
+
+
+    <!-- mt-3 mb-3 => my-3
+         pt-3 pb-3 => px-3 -->
+    <!-- youtube 影片 start -->
+    <!-- <div class="ytVideos justify-content-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HTlKoYCD96I?start=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div> -->
+
+    <!-- TODO: 崁入一個youtube影片 https://www.youtube.com/watch?v=gwDoRPcPxtc -->
+
+
+    <!-- footer -->
+    <footer id="footer" class="pt-5 bg-secondary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h4 class="text-uppercase fw-light">Contact Me</h4>
+                    <a class="fw-light" href="mailto:service@brand.com">louise87121@gmail.com</a>
+                    <p class="fw-light text-primary">+886-900-000-000</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 footer-list">
+                    <h4 class="text-uppercase fw-light">Follow</h4>
+                    <!-- <ul>
+                        <li>
+                            <a href="#">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul> -->
+                    <!-- personal icons -->
+                    <div class="personal_icons">
+                        <div>
+                            <a class="fs-2 itms" target="_blank" href="https://www.facebook.com/minluthegreat/">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="fs-2 itms" target="_blank" href="https://www.instagram.com/minlu_the_great/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <!-- <div>
+                            <a class="fs-2 itms" target="_blank"
+                                href="https://www.linkedin.com/in/min-ju-chung-75957a205">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                    <!-- personal icons end -->
+                </div>
+
+                <div class="text-end col-md-6 col-sm-6 footer-list">
+                    <h5 class="fw-lighter text-uppercase justify-content-end">©2024 by Jasmine Chung.</h5>
+                    <!-- <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonus</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end bg-dark mt-5 py-2">
+            <p class="text-center">&copy; Copy right 2020</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- ad-box -->
+    <div class="ad-box">
+        <div class="left-part">
+            <button class="ad-toggle-btn">
+                <i class="fas fa-sort"></i>
+            </button>
+        </div>
+        <div class="right-part">
+            <img class="w-100" src="./WBS.jpeg">
+            <p>Warwick Business School building.</p>
+        </div>
+    </div>
+    <!-- ad-box end -->
+
+    <!-- TODO: 設定置底返回按鈕 返回按鈕滾動動畫 -->
+    <button id="goBackBtn" class="bg-primary" href="#header">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- 引用的JS（配合前面的bootstrap.css） -->
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
